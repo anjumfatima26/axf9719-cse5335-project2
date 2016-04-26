@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Food Consumption Dashboard</title>
+    <!-- Bootstrap core CSS     -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+    <!--     Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+    <link href="styles/pe-icon-7-stroke.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/angular.chartjs/0.8.8/angular-chart.css" rel="stylesheet" />
+    <!--  global CSS    -->
+    <link href="styles/global.css" rel="stylesheet"/>
+    <!--Angular js-->
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/oclazyload/1.0.9/modules/ocLazyLoad.core.min.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.0.1/Chart.min.js"></script>
+    <script src="node_modules/angular-chart/angular-chart.min.js"></script>
+
+
+
+    <!--controller.js-->
+    <script type="text/javascript" src="app.js"></script>
+
+</head>
+
+<body ng-app="myapp">
+<div class="wrapper">
+    <div class="sidebar" data-color="green">
+        <div class="sidebar-wrapper">
+            <div class="logo">
+                <a href="index.html"class="simple-text">
+                    Food Consumption
+                </a>
+            </div>
+            <ul class="nav">
+                <li class="active">
+                    <a ui-sref="home">
+                        <i class="fa fa-home"></i>
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a ui-sref="table">
+                        <i class="fa fa-table"></i>
+                        <p>Tables</p>
+                    </a>
+                </li>
+                <li class="active">
+                    <a ui-sref="chart">
+                        <i class="fa fa-bar-chart-o fa-fw"></i>
+                        <p>Charts</p>
+                    </a>
+                </li>
+
+            </ul>
+
+
+        </div>
+    </div>
+
+    <div class="main-panel">
+        <nav class="navbar navbar-default navbar-fixed">
+            <div class="container-fluid">
+
+
+            </div>
+        </nav>
+
+
+        <div class="content">
+            <div class="container-fluid">
+                <div ui-view></div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="container-fluid">
+                <nav class="pull-left">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                Home
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+                <p class="address pull-right">
+                    Code on <a href="https://github.com/anjumfatima26">Github</a>
+                </p>
+            </div>
+        </footer>
+
+
+    </div>
+</div>
+
+</body>
+
+</html>
