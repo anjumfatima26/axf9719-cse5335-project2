@@ -1,7 +1,5 @@
 # axf9719-cse5335-project2
-A store locator application which uses Mongodb, Express JS, Angular JS and Node JS  with google maps. Application allows user to 
-click on dashboard which consists of home, tables and charts. On clicking tables user gets the food consumption data of all countries.
-Tables tab consists of 5 pages. Each page shows 20 records. On clicking Charts, user gets to see different statistics via charts.
+A Food Consumption dashboard application which uses Mongodb, Express JS, Angular JS and Node JS  with google maps. Application allows user to click on dashboard which consists of home, tables and charts. On clicking tables user gets the food consumption data of all countries.Tables tab consists of 5 pages. Each page shows 20 records. On clicking Charts, user gets to see different statistics via charts.
 
 
 ![appimage](https://raw.githubusercontent.com/anjumfatima26/axf9719-cse5335-project2/master/public/images/app_image.png)
