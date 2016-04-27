@@ -43,4 +43,4 @@ Run mongod command from mongodb server bin folder installed.
 Run server.js -It will listen on port 8002.  
 On browser go to http://localhost:8002  
 
-Note: It has http components and while running through heroku some features might not work as it uses https. So change https to http in the url and the application works correctly.  
+ 
