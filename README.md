@@ -3,7 +3,7 @@ A store locator application which uses Mongodb, Express JS, Angular JS and Node 
 select the location from a drop down and submit it and gets a list of stores and their addresses available in that location along with the markers on the map.
 On the clicking the store link they will be able to see the store's specific marker on the map.
 
-![appimage](https://raw.githubusercontent.com/anjumfatima26/axf9719-cse5335-project1/master/resources/app_image.jpg)
+![appimage](https://raw.githubusercontent.com/anjumfatima26/axf9719-cse5335-project2/master/public/images/app_image.jpg)
 
 ## Server side Framework
 It uses Node JS and Express JS as server side framework. Express is the most common Node JS web application framework that deals with exploring various code  which we need on a frequent basis like POST body / query string parsing. Express JS basically helps you manage everything, from routes, to handling requests and views.
