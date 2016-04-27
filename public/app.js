@@ -121,7 +121,7 @@ app.config(function($stateProvider, $urlRouterProvider,$ocLazyLoadProvider) {
                 {
                     console.log($scope.obmen[j]);
                 }
-               /* $scope.bar = {
+               $scope.bar = {
                     labels: $scope.countries,
                     series: ['Series A'],
 
@@ -129,8 +129,8 @@ app.config(function($stateProvider, $urlRouterProvider,$ocLazyLoadProvider) {
 
 
 
-                };*/
-               $scope.bar = {
+                };
+            /*   $scope.bar = {
                     labels: ['2006', '2007', '2008', '2009', '2010', '2011', '2012'],
                     series: ['Series A', 'Series B'],
 
@@ -143,7 +143,7 @@ app.config(function($stateProvider, $urlRouterProvider,$ocLazyLoadProvider) {
                 $scope.donut = {
                     labels: ["Download Sales", "In-Store Sales", "Mail-Order Sales"],
                     data: [300, 500, 100]
-                };
+                };*/
 
             })
         }
